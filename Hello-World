@@ -1,0 +1,12 @@
+echo "# hello-world" >> README.md 
+COMMENT: echoes Hello World on screen
+git init
+COMMENT: initiates GIT but already installed via command line
+git add README.md 
+Comment: Adds README file
+git commit -m "first commit"
+COMMENT: commits yoyr first commit file in this case Hello-World
+git remote add origin https://github.com/angelofflight/hello-world.github
+COMMENT: Adds github website details
+git push -u origin master
+COMMENT: pushes this file to Github
